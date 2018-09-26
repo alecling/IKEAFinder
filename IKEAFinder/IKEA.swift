@@ -24,7 +24,7 @@ class IKEA: NSObject {
     var realLifeHomes: Int
     var cashLanes: Int
     var restaurantSeating: Int
-    var smalland: Bool
+    var smaland: Bool
     var webpage: String
     var latitude: Double
     var longitude: Double
@@ -43,7 +43,7 @@ class IKEA: NSObject {
         realLifeHomes: Int,
         cashLanes: Int,
         restaurantSeating: Int,
-        smalland: Bool,
+        smaland: Bool,
         webpage: String,
         latitude: Double,
         longitude: Double){
@@ -62,29 +62,12 @@ class IKEA: NSObject {
         self.cashLanes = cashLanes
         self.restaurantSeating = restaurantSeating
         self.webpage = webpage
-        self.smalland = smalland
+        self.smaland = smaland
         self.latitude = latitude
         self.longitude = longitude
     }
     
-    let cardiff = IKEA(storeName: "Cardiff",
-                       storeNumber: 267,
-                       storeImage: "ikea_cardiff",
-                       address: "Ferry Road (Grangetown)",
-                       city: "Cardiff",
-                       zipCode: "CF11 0XR",
-                       country: "United Kingdom",
-                       telephone: "442920729700",
-                       size: 25950,
-                       roomSettings: 49,
-                       realLifeHomes: 3,
-                       cashLanes: 0,
-                       restaurantSeating: 410,
-                       smalland: true,
-                       webpage: "http://www.ikea.com/gb/en/store/cardiff",
-                       latitude: 51.462752,
-                       longitude: -3.188809)
-    
+
     
 }
 

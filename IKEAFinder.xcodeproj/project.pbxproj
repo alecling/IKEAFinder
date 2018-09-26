@@ -14,6 +14,7 @@
 		08C0739E21598A6700AC9C35 /* IKEATableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C0739D21598A6700AC9C35 /* IKEATableViewController.swift */; };
 		08C073A021598CE100AC9C35 /* IKEADetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C0739F21598CE100AC9C35 /* IKEADetailViewController.swift */; };
 		08C073A22159900D00AC9C35 /* IKEA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C073A12159900D00AC9C35 /* IKEA.swift */; };
+		08D9565D215C27D60044BE1D /* IKEADataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D9565C215C27D60044BE1D /* IKEADataStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		08C0739D21598A6700AC9C35 /* IKEATableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IKEATableViewController.swift; sourceTree = "<group>"; };
 		08C0739F21598CE100AC9C35 /* IKEADetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IKEADetailViewController.swift; sourceTree = "<group>"; };
 		08C073A12159900D00AC9C35 /* IKEA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IKEA.swift; sourceTree = "<group>"; };
+		08D9565C215C27D60044BE1D /* IKEADataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IKEADataStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				08C07394215989D500AC9C35 /* LaunchScreen.storyboard */,
 				08C07397215989D500AC9C35 /* Info.plist */,
 				08C0739F21598CE100AC9C35 /* IKEADetailViewController.swift */,
+				08D9565C215C27D60044BE1D /* IKEADataStore.swift */,
 			);
 			path = IKEAFinder;
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				08C073A021598CE100AC9C35 /* IKEADetailViewController.swift in Sources */,
+				08D9565D215C27D60044BE1D /* IKEADataStore.swift in Sources */,
 				08C0738C215989D200AC9C35 /* AppDelegate.swift in Sources */,
 				08C0739E21598A6700AC9C35 /* IKEATableViewController.swift in Sources */,
 				08C073A22159900D00AC9C35 /* IKEA.swift in Sources */,
