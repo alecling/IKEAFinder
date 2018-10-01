@@ -16,6 +16,20 @@ class IKEATableViewController : UITableViewController{
     //! MEANS THIS IS NOT ALLOW TO BE NILL, SO THE ARRAY NEEDS TO HAVE DATA, BUT WE'RE NOT FORCE UNWRAPPING ANYTHING
     var IKEABucket: IKEADataStore!
     
+    //this is to make the
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        //get the height of the status bar
+      let statusBarHeight = UIApplication.shared.statusBarFrame.height
+        
+      let insets = UIEdgeInsets (top: statusBarHeight, left: 0, bottom: 0, right: 0)
+        
+    //apply insets to the tableView
+        tableView.contentInset = insets
+        tableView.scrollIndicatorInsets = insets
+    }
+    
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
         return IKEABucket.allIKEAs.count
@@ -39,6 +53,25 @@ class IKEATableViewController : UITableViewController{
         //return the formatted cell
         
         return thisCell
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?){
+        
+        //get a reference to our segue target
+        let detailView = segue.destination as! IKEADetailViewController
+        
+        //FIGURED OUT WHICH TABLE WAS CLIKCED
+        if let indexPath = self.tableView.indexPathForSelectedRow {
+            
+            //find the specific IKEA object corresponding to the cell
+            let selectedIKEA = IKEABucket.allIKEAs[indexPath.row]
+            
+            //MOVE A COPY OF THE INSTANCE OF THE SELECTED IKEA CLASS
+            //FROM THIS VIEW CONTROLLER TO THE NEXT VIEW CONTROLLER
+            
+            detailView.selectedIKEA = selectedIKEA
+            
+        }
     }
 }
 

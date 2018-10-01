@@ -10,4 +10,13 @@ import UIKit
 
 class IKEADetailViewController: UIViewController{
     
+    @IBOutlet weak var lblStoreName: UILabel!
+    var selectedIKEA: IKEA!
+    
+    override func viewWillAppear(_ animated: Bool) {
+        print(selectedIKEA.storeName)
+        
+        lblStoreName.text = selectedIKEA.storeName
+        
+    }
 }
