@@ -2,7 +2,7 @@
 //  IKEADataStore.swift
 //  IKEAFinder
 //
-//  Created by J. SANNI on 9/26/18.
+//  Created by A. Clingerman on 9/26/18.
 //  Copyright © 2018 Machioud, Sanni. All rights reserved.
 //
 
