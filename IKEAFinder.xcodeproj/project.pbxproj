@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		08321739216BCB95004C9DBF /* IKEAMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08321738216BCB95004C9DBF /* IKEAMapViewController.swift */; };
 		08C0738C215989D200AC9C35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C0738B215989D200AC9C35 /* AppDelegate.swift */; };
 		08C07391215989D200AC9C35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08C0738F215989D200AC9C35 /* Main.storyboard */; };
 		08C07393215989D500AC9C35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08C07392215989D500AC9C35 /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		08321738216BCB95004C9DBF /* IKEAMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IKEAMapViewController.swift; sourceTree = "<group>"; };
 		08C07388215989D200AC9C35 /* IKEAFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IKEAFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08C0738B215989D200AC9C35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		08C07390215989D200AC9C35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				08C07397215989D500AC9C35 /* Info.plist */,
 				08C0739F21598CE100AC9C35 /* IKEADetailViewController.swift */,
 				08D9565C215C27D60044BE1D /* IKEADataStore.swift */,
+				08321738216BCB95004C9DBF /* IKEAMapViewController.swift */,
 			);
 			path = IKEAFinder;
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 				08C0738C215989D200AC9C35 /* AppDelegate.swift in Sources */,
 				08C0739E21598A6700AC9C35 /* IKEATableViewController.swift in Sources */,
 				08C073A22159900D00AC9C35 /* IKEA.swift in Sources */,
+				08321739216BCB95004C9DBF /* IKEAMapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
