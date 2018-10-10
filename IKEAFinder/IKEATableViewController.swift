@@ -56,6 +56,7 @@ class IKEATableViewController : UITableViewController{
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?){
+        if segue.identifier == "detailView" {
         
         //get a reference to our segue target
         let detailView = segue.destination as! IKEADetailViewController
@@ -75,3 +76,4 @@ class IKEATableViewController : UITableViewController{
     }
 }
 
+}
